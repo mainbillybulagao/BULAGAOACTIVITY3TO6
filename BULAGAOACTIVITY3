@@ -4,7 +4,6 @@ public struct Time
 {
     private readonly int minutes;
 
-    // Constructor to initialize the time using hours and minutes
     public Time(int hh, int mm)
     {
         this.minutes = 60 * hh + mm;
